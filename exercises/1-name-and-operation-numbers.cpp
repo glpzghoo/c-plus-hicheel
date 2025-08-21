@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     string name;
     int firstnumber;
     int secondnumber;
@@ -18,7 +19,8 @@ int main() {
     sum = firstnumber + secondnumber;
     diff = firstnumber - secondnumber;
     product = firstnumber * secondnumber;
-    if (secondnumber != 0){
+    if (secondnumber != 0)
+    {
         quo = firstnumber / secondnumber;
     }
     cout << "Таны нэрийг " + name + " гэдэг!" << endl;

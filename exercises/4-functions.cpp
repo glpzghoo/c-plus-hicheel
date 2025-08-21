@@ -1,27 +1,36 @@
 #include <iostream>
 using namespace std;
 
-bool isEven(int n) {
-    if(n % 2 == 0){
+bool isEven(int n)
+{
+    if (n % 2 == 0)
+    {
         return true;
-    }else{
+    }
+    else
+    {
         return false;
     }
 }
 
-int main () {
+int main()
+{
     int number;
     bool result;
-    while (number != 0) {
+    while (number != 0)
+    {
         cout << "Тоо оруулна уу!" << endl;
         cin >> number;
-      result = isEven(number);
-      if(result){
-         cout << "Тоо тэгш байна!"   << endl;
-      }else{
-         cout << "Тоо сондгой байна!"   << endl;
-      }
+        result = isEven(number);
+        if (result)
+        {
+            cout << "Тоо тэгш байна!" << endl;
+        }
+        else
+        {
+            cout << "Тоо сондгой байна!" << endl;
+        }
     }
-     cout << "Bye" << endl;
+    cout << "Bye" << endl;
     return 0;
 }

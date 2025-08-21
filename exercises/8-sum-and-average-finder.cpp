@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     int numbers[5];
-    for(int i = 0; i < 5; i++){
+    for (int i = 0; i < 5; i++)
+    {
         cout << "Тоо оруулна уу!" << endl;
         cin >> numbers[i];
     }
@@ -12,10 +14,14 @@ int main() {
     int smallest = numbers[0];
     double sum = 0;
     int length = 0;
-    for( int i = 0; i < 5; i++){
-        if(largest < numbers[i]){
+    for (int i = 0; i < 5; i++)
+    {
+        if (largest < numbers[i])
+        {
             largest = numbers[i];
-        }else if(smallest > numbers[i]){
+        }
+        else if (smallest > numbers[i])
+        {
             smallest = numbers[i];
         }
         sum += numbers[i];
